@@ -1,9 +1,12 @@
 .card--main{
-    border:1px solid red;
-    height:200px;
-    width:1080px;
+    height:100%;    
+    width:80%;
     padding:10px;
     box-shadow: 5px 8px 3px #a3a3a3;
+    background-color: white;
+    border-radius: 30px;
+    padding:10px;
+
 }
 
 .card--likeCount{
@@ -19,4 +22,16 @@
 
 .card--likeCount{
     color:#FFB703;
+}
+
+.card--main > p {
+    padding:10px;
+}
+
+.card--likeCount{
+    padding-left:10px;  
+}
+
+.laughIcon{
+    padding-right:20px;
 }
