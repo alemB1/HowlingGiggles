@@ -1,18 +1,18 @@
 import React from "react";
 import './Card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-export default function Card(){
+import { faFaceLaughSquint } from "@fortawesome/free-solid-svg-icons";
+
+export default function Card(props){
     return(
         <div className="card--main">
             <h3>#2422552</h3>
+            <h1>By:{props.item.username}</h1>
             <p>
-            Lorem ipsum dolor sit amet consectetur. Malesuada gravida imperdiet mi luctus malesuada 
-            a malesuada. Vel ridiculus ultricies sit ullamcorper arcu 
-            amet a sit senectus.
+            {props.item.postContent}
             </p>
             <div className="card--likeCount">
-                <h3>242</h3>            
+                <h3><FontAwesomeIcon className="laughIcon" icon={faFaceLaughSquint} />{props.item.likeCount}</h3>            
             </div>
         </div>)
 }
