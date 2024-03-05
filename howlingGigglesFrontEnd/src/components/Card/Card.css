@@ -1,0 +1,22 @@
+.card--main{
+    border:1px solid red;
+    height:200px;
+    width:1080px;
+    padding:10px;
+    box-shadow: 5px 8px 3px #a3a3a3;
+}
+
+.card--likeCount{
+    display:flex;
+    justify-content: inline;
+}
+
+.card--main > h3{
+    color:rgb(213, 211, 211);
+    font-size:15px;
+    font-weight: lighter;
+}
+
+.card--likeCount{
+    color:#FFB703;
+}
