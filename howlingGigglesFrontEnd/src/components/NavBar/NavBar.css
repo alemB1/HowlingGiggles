@@ -3,6 +3,7 @@
     justify-content:space-around;
     align-items: center;
     height:40px;
+    padding:10px;
 }
 
 .navbar--logo{
@@ -22,7 +23,7 @@
 
 .navbar--links{
     display: flex;
-    gap:300px;
+    gap:200px;
 }
 
 .navbar--links > a{
@@ -41,3 +42,9 @@
     background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(255,183,3,1) 0%, rgba(255,200,62,1) 100%, rgba(0,212,255,1) 100%);
 }
 
+.navbar--postbtn:hover{
+    background-color: #ffb703;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
