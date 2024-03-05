@@ -1,0 +1,31 @@
+.mainContent{
+    width:80%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin:auto;
+}
+
+.mainContent--heading{
+    width:700px;
+    font-size:20px;
+    color:black;
+    position: relative;
+    left:80px;
+}
+
+.mainContent--image > img{
+    position: relative;
+    left:85px;
+    width:90%;
+}
+
+.mainContent--heading > p {
+    font-size:15px;
+}
+
+.orange-heading{
+    color:#FFB703
+}

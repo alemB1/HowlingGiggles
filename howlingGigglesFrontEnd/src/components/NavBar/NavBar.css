@@ -1,0 +1,43 @@
+.navbar--main{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:40px;
+}
+
+.navbar--logo{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    height: 50px;
+}
+
+.logo{
+    font-family:'Bungee';
+    font-size:22px;
+    color:#FFB703;
+}
+
+.navbar--links{
+    display: flex;
+    gap:300px;
+}
+
+.navbar--links > a{
+    color:#FFB703;
+    text-decoration: none;
+}
+
+.navbar--postbtn{
+    height:50px;
+    width:150px;
+    font-size:22px;
+    font-weight: bold;
+    border-radius: 20px;
+    color:white;
+    border:none;
+    background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(255,183,3,1) 0%, rgba(255,200,62,1) 100%, rgba(0,212,255,1) 100%);
+}
+
