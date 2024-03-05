@@ -1,0 +1,37 @@
+.container {
+    height: 75px;
+    border: 3px solid #ffb703;
+    box-shadow: 0 5px 5px rgba(255, 183, 3, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around ;
+    align-content: center;
+}
+
+li {
+    border-radius: 17.5px;
+    color: #ffb703;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in, font-weight 0.2s ease-in, box-shadow  0.2s ease-in;
+}
+
+li:hover {
+    background-color: #ffb703;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
