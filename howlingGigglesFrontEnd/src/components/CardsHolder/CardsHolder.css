@@ -4,6 +4,7 @@
     background-image: url("../../assets/main_background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
 }
