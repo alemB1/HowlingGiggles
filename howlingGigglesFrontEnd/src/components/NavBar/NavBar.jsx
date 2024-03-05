@@ -1,6 +1,6 @@
 import React from "react";
 import './NavBar.css'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function NavBar(){
     return(
         <div className="navbar--main">

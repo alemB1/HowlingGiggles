@@ -6,7 +6,7 @@ import { faFaceLaughSquint } from "@fortawesome/free-solid-svg-icons";
 export default function Card(props){
     return(
         <div className="card--main">
-            <h3>#2422552</h3>
+            <h3>#{props.item.id}</h3>
             <h1>By:{props.item.username}</h1>
             <p>
             {props.item.postContent}
