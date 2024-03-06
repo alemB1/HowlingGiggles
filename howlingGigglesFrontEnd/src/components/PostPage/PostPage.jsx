@@ -9,9 +9,9 @@ export default function PostPage(){
                 </div>
                 <div className="card">
                 <p className="text"> Write your UserName here: </p>
-              <input className='textbox1' type='text' />
+              <input className='textboxUsername' type='text' />
               <p className="text"> Write your joke here: </p>
-              <input className='textbox2' type='text' />
+              <input className='textboxInput' type='text' />
               <button className='button'>POST</button>
                 </div>
         </div> 
