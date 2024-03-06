@@ -16,5 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 22px;
+    row-gap: 12px; /*small fix because i changed the margins in Card component*/
 }
+
+/*Add effect on icons later*/
