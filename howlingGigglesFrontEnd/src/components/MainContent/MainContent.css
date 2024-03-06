@@ -6,6 +6,7 @@
     align-items: center;
     gap:20px;
     margin:auto;
+    overflow: hidden;
 }
 
 .mainContent--heading{
@@ -14,12 +15,14 @@
     color:black;
     position: relative;
     left:80px;
+    animation:2s anim-LineUp ease-out 1;
 }
 
 .mainContent--image > img{
     position: relative;
     left:85px;
     width:90%;
+    animation: 0.7s anim-Slide ease 1;
 }
 
 .mainContent--heading > p {
@@ -29,3 +32,33 @@
 .orange-heading{
     color:#FFB703
 }
+
+@keyframes anim-LineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+      }
+      20% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+}
+
+@keyframes anim-Slide{
+    0%{
+      opacity:0%;
+      transform:translateX(300px)
+    }
+    100% {
+      opacity:100%;
+      transform: translateY(0%);
+    }
+    
+  }
