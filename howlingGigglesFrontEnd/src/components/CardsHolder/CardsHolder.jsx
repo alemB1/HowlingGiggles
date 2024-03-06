@@ -12,7 +12,6 @@ export default function CardsHolder() {
 
     useEffect(() => {
         fetchJokes()
-        console.log(data)
     }, []);
 
     const jokesMap = data.map(item => {
