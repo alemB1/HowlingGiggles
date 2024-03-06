@@ -1,11 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import NavBar from './components/NavBar/NavBar.jsx'
+import MainContent from './components/MainContent/MainContent.jsx'
 import './index.css'
-import PostPage from './components/PostPage/PostPage'
+import CardsHolder from './components/CardsHolder/CardsHolder.jsx'
+import Sort from './components/Sort/Sort.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PostPage />
+    <NavBar />
+    <MainContent />
+    <Sort />
+    <CardsHolder />
   </React.StrictMode>,
-  /*branch testing */
 )
