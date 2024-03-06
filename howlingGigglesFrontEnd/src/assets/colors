@@ -1,0 +1,9 @@
+FFB703 - text, navbar, button
+black - text
+
+source sans pro - text sav
+bungee - navbar
+
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+}
