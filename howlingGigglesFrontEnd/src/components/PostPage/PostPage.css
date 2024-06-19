@@ -1,0 +1,78 @@
+*{
+    height: 100%;
+    box-sizing: border-box;
+    margin:0;
+}
+
+.postpage{
+    background-image: url("../../assets/bg-opacity.png");
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    height:10%;
+    padding-top: 7px;
+}
+
+.image{
+    height: 50px;
+}
+
+.logotext{
+    font-family:'Bungee';
+    font-size:22px;
+    color:#FFB703;
+}
+
+.card{
+    display:flex;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    font-weight:500;
+    border-radius: 15px;
+    border: 2px solid #ffb703;
+    border-top:1px solid #ffb703;
+    box-shadow: 0 3px 0 rgba(255, 183, 3, 0.6);
+    background-color: white;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+
+.button{
+    margin:auto;
+    margin-top: 30px;
+    width: 15%;
+    height: 15%;
+    color: white;
+    background-color: #FFB703;
+    border: 2px solid #FFB703;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    font-weight:bolder;
+    font-size: large;
+    border-radius: 30px;
+}
+
+.text{
+    height:5%;
+    margin-bottom: 10px;
+}
+
+.textboxUsername{
+    max-height:40px;
+    margin-bottom: 30px;
+    border: 1px solid #FFB703;
+    background-color: #f9f9f9;
+    padding:5px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.textboxInput{
+    border: 1px solid #FFB703;
+    padding:0 0 200px 0;
+    background-color: #f9f9f9;
+    font-size:20px;
+}

@@ -1,0 +1,51 @@
+.container {
+    height: 75px;
+    border-top:3px solid #ffb703;
+    border-bottom: 3px solid #ffb703;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around ;
+    align-content: center;
+}
+
+li {
+    border-radius: 17.5px;
+    color: #ffb703;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*
+    font-size: larger;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in, font-weight 0.2s ease-in, box-shadow  0.2s ease-in;
+    */
+    
+    /*if you dont like the look change back this*/
+    font-weight: bolder;
+    border-radius: 15px;
+    color:white;
+    border:none;
+    background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(255,183,3,1) 0%, rgba(255,200,62,1) 100%, rgba(0,212,255,1) 100%);
+    background-position: 100%;
+    color:white; /* font color*/
+    background-image: linear-gradient(45deg, white 50%, #FFB703 50%);
+    background-size: 400%;
+    transition: 300ms ease-in-out;
+}
+
+li:hover {
+    color:#FFB703;
+    background-position: 0;
+    box-shadow: 0 0 15px #ffc800b3;
+}

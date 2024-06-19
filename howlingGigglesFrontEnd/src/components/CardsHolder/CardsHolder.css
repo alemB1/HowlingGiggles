@@ -1,0 +1,22 @@
+.containter {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/main_background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.cardsHolder {
+    width: 70%;
+    height: 100%;
+    background-color: #fffbf0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px; /*small fix because i changed the margins in Card component*/
+}
+
+/*Add effect on icons later*/
