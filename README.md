@@ -1,5 +1,5 @@
 # HowlingGiggles
-Frontend of howling giggles
+Frontend of howling giggles, a small project used as a preparation for hackathon
 
 
 Run the project with:
